@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PUZZEL time</title>
+<script src="script1.js"></script>
+</head>
+
+<body  style="background-color:#d7e3ef;padding-top: 5em">
+  <link rel="stylesheet" href="puzzelstyle.css">
+
+<center>
+  <b style="color:#760ae2;font-size:30px">来玩海龟汤! Let's play Situation puzzle!</b>
+  <p id="puzzel">在一个月黑风高的晚上，一对夫妻<p1 style="color:#760ae2">以很快的车速行驶</p1>在郊外。<br>
+    车子突然<p1 style="color:#760ae2">抛锚</p1>了，丈夫下车去找人帮忙。<br>
+    等他回来时，却发现妻子倒在<p1 style="color:#760ae2">血泊</p1>中，而车上居然还有一个<p1 style="color:#760ae2">陌生人</p1>!<br></p>
+  <b style="color:#760ae2">这是怎么回事?</b><br><br>
+
+<hr width='1300' align='center' color='#7015df' size='1'><br>
+
+  <i style="color:#760ae2"><b>What's wrong？</b></i><br>
+  <table width='900' border="5" cellpadding='13' cellspacing='0' bordercolor='#760ae2'>
+    <tr>
+      <td><button onclick="outside()">以很快的车速行驶?</button><br>
+       <p3 id="1" style="color:#d7e3ef;font-size:6px">快速行驶是否与妻子身体状况有关?
+          <a onclick="alert('是')" style="text-decoration:underline;">是/否/与此无关</a></p3></td>
+      <td><button onclick="breakdown()">抛锚?</button><br>
+       <p4 id="2" style="color:#d7e3ef;font-size:6px">抛锚是否与陌生人有关?
+          <a onclick="alert('与此无关')" style="text-decoration:underline;">是/否/与此无关</a></p4></td>
+      <td><button onclick="wife()">妻子?</button><br>
+       <p5 id="3" style="color:#d7e3ef;font-size:6px">妻子是否死亡?
+          <a onclick="alert('是')" style="text-decoration:underline;">是/否/与此无关</a><br>
+         妻子死亡是否是丈夫计划?
+         <a onclick="alert('否')" style="text-decoration:underline;">是/否/与此无关</a></p5></td>
+    </tr>
+    <tr>
+      <td><button onclick="blood()">血泊?</button><br>
+       <p6 id="4" style="color:#d7e3ef;font-size:6px">血泊与快速行驶是否有关?
+          <a onclick="alert('是')" style="text-decoration:underline;">是/否/与此无关</a></p6></td>
+      <td><button onclick="stranger()">陌生人?</button><br>
+        <p7 id="5" style="color:#d7e3ef;font-size:6px">陌生人是为了搭便车吗?
+          <a onclick="alert('否')" style="text-decoration:underline;">是/否/与此无关</a><br>
+        陌生人在丈夫下车后进入车内吗?
+        <a onclick="alert('否')" style="text-decoration:underline;">是/否/与此无关</a><br>
+        陌生人是否带着恶意进入车内?
+      <a onclick="alert('否')" style="text-decoration:underline;">是/否/与此无关</a></p7></td>
+      <td><button onclick="husband()">丈夫?</button><br>
+        <p8 id="6" style="color:#d7e3ef;font-size:6px">丈夫与妻子是否有争执?
+        <a onclick="alert('否')" style="text-decoration:underline;">是/否/与此无关</a></p8></td>
+    </tr>
+  </table><br>
+
+    <i style="color:#760ae2"><b>故事还原   </b></i><button onclick="button()">click me</button><br>
+    <i id="truth" style="color:#d7e3ef">妻子怀孕临产，丈夫想尽快赶去医院。<br>
+      后来车子意外抛锚，丈夫下车找人帮忙。<br>
+      但当他回来的时候，妻子已经在难产中死了，陌生人正是他们的孩子。</i>
+</center>
+
+  </body>
+</html>
