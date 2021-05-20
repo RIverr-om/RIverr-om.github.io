@@ -1,0 +1,151 @@
+pi {
+  padding-top: 10em;
+  font-family: Centaur;
+  font-size:25px
+}
+
+h1 {
+  padding-top: 5em;
+  font-family: Engravers MT;
+  font-size:60px;
+}
+
+h2{
+  font-family: Engravers MT;
+  font-size:50px;
+}
+
+p1{
+  font-family:Centaur;
+}
+
+p2{
+  font-family:Centaur;
+  font-size:30px;
+}
+
+p{
+  padding-top:17em;
+  font-family:Centaur;
+}
+
+p-v{
+  font-family: Engravers MT;
+  color:white;
+  font-size:30px;
+}
+
+p-v1{
+  font-family: Centaur;
+  color:white
+}
+
+a1{
+  position:relevate;
+  top:50em;
+}
+
+div{
+  style="text-align:center"
+}
+
+
+
+p-e{
+  font-family:Centaur;
+  font-size:20px;
+}
+
+p-ck{
+  font-family:Centaur;
+  font-size:30px;
+}
+
+p-b{
+  font-family:Centaur;
+}
+
+div-jm{
+  position:relative;
+  top:10px;
+  left:17%;
+}
+
+
+div13{
+  overflow-y:scroll
+}
+
+p10{
+  font-family:Centaur;
+}
+
+div10{
+  position:relative;
+  left:33%;
+}
+
+p11{
+  font-family:Centaur;
+}
+
+#flower{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div-li{
+  position:relative;
+  margin-top:50px;
+}
+
+form{
+  margin-left:100px
+}
+
+table{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td{
+height:10px;
+}
+
+p12{
+  padding-left:16%;
+  font-family:Oswald;
+  font-size:30px;
+}
+
+p13{
+  font-family:Oswald;
+  font-size:30px;
+}
+
+p14{
+  padding-left:23%;
+  font-family:Oswald;
+  font-size:30px;
+}
+
+p15{
+  font-family:Centaur;
+  color:#e2bc9a;
+}
+
+p16{
+  font-family:Oswald;
+  font-size:20px;
+}
+
+div16{
+  position:relative;
+  left:33%;
+}
+
+p17{
+  font-family:Centaur;
+  color:#17a2b8;
+  font-weight:bold;
+}
