@@ -106,11 +106,17 @@
 <p12>Wallace Corporation Earth Headquarters</p12><br><br>
 <div class="top-content">
     <div class="container">
-        <!-- Carousel row -->
+<!-- Carousel row -->
+<script>
+$('#carousel-ad').carousel({
+pause: true,
+interval: false
+});
+</script>
         <div class="row">
             <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
                 <!-- Carousel -->
-                <div id="carousel-example" class="carousel slide">
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example" data-slide-to="1"></li>
@@ -119,17 +125,23 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="银翼杀手2049_1.mp4" allowfullscreen></iframe>
+                              <video controls>
+                                  <source src="银翼杀手2049_1.mp4" type="video/mp4">
+                              </video>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="银翼杀手2049_2.mp4" allowfullscreen></iframe>
+                              <video controls>
+                                  <source src="银翼杀手2049_2.mp4" type="video/mp4">
+                              </video>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="银翼杀手2049_3.mp4" allowfullscreen></iframe>
+                              <video controls>
+                                  <source src="银翼杀手2049_3.mp4" type="video/mp4">
+                              </video>
                             </div>
                         </div>
                     </div>
